@@ -1,0 +1,45 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin: 30px auto;
+    /* justify-content: center; */
+}
+
+
+.col {
+    flex: 1;
+    height: 50px;
+    background-color: #659DA1;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-top: 20px;   
+}
+
+.col-2 {
+    flex: 2;
+    height: 50px;
+    background-color: #659DA1;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.col-3 {
+    flex: 3;
+    height: 50px;
+    width: 60%;
+    background-color: #659DA1;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding-top: 20px;
+    margin-left: 20px;
+}
